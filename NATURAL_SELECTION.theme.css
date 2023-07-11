@@ -878,3 +878,8 @@ body .contentWrapper-3RqEiS .accordionContainer-vSTU_l {
 .sidebar-1tnWFu .panels-3wFtMD .container-YkUktl, .sidebar-1tnWFu .panels-3wFtMD .panel-2ZFCRb, .sidebar-1tnWFu .panels-3wFtMD .wrapper-3Hk9OB > div {
   background-color: var(--background-primary);
 }
+
+div[data-list-item-id="guildsnav___home"] {
+	background: url('https://raw.githubusercontent.com/GamingOnline/NATURAL_SELECTION/main/logo.png') top center/110% no-repeat;
+}
+
