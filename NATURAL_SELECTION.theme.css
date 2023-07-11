@@ -887,8 +887,10 @@ body .contentWrapper-3RqEiS .accordionContainer-vSTU_l {
   background-color: var(--background-primary);
 }
 
-div[data-list-item-id="guildsnav___home"] {
-	background: url('https://raw.githubusercontent.com/GamingOnline/NATURAL_SELECTION/main/logo.png') top center/100% no-repeat;
+div[data-list-item-id="guildsnav___home"]:hover {
+    border-radius: 100px;
+    -webkit-filter: saturate(0%) invert(0);
+    transition-duration: 150ms;
 }
 
 #app-mount [data-list-item-id="guildsnav___home"]>div {
@@ -896,24 +898,32 @@ div[data-list-item-id="guildsnav___home"] {
 	background-color: var(--background-secondary-alt);
 }
 
+#app-mount [data-list-item-id="guildsnav___home"]>div:hover {
+    border-radius: 30%;
+    background: url('https://raw.githubusercontent.com/GamingOnline/NATURAL_SELECTION/main/logo_small.png') top center/100% no-repeat;
+	color: transparent;
+	background-color: var(--background-secondary-alt);
+    transition-duration: 150ms;
+}
+
 .wordmark-2u86JB {
-  position: absolute;
-  margin-top: 2px;
-  margin-left: 5px;
-  top: 1px;
-  width: 5px;
-	height: 90px;
-  background: url('https://raw.githubusercontent.com/GamingOnline/NATURAL_SELECTION/main/logo.png') top center/100% no-repeat;
-  background-color: var(header-secondary);
+    position: absolute;
+    margin-top: 2px;  
+    margin-left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 90px;
+    background: url('https://raw.githubusercontent.com/GamingOnline/NATURAL_SELECTION/main/logo.png') top center/100% no-repeat;
+    background-color: var(header-secondary);
 }
 
 .wordmark-2u86JB > svg {
-  position: absolute;
-  margin-left: 15px;
-  top: 0px;
-  width: 120px;
-	height: 90px;
-  background: url('https://raw.githubusercontent.com/GamingOnline/NATURAL_SELECTION/main/text.png') top center/100% no-repeat;
-  background-color: var(header-secondary);
-  color: transparent;
+    position: absolute;
+    margin-left: 15px;
+    top: 0px;
+    width: 120px;
+    height: 90px;
+    background: url('https://raw.githubusercontent.com/GamingOnline/NATURAL_SELECTION/main/text.png') top center/100% no-repeat;
+    background-color: var(header-secondary);
+    color: transparent;
 };
