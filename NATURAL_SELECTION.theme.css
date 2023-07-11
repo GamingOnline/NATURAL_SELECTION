@@ -1,3 +1,11 @@
+/**
+ * @name Natural Selection
+ * @author xv#0888, .sqf
+ * @version 1.0.0
+ * @description xv
+ * @source https://github.com/GamingOnline/NATURAL_SELECTION
+*/
+
 :root {
   /* ignore these, unless you wanna mess with them, then go for it. they may be removed at any time, though. */
   --blurple-replace: #7289DA;
