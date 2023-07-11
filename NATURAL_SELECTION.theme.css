@@ -884,8 +884,8 @@ div[data-list-item-id="guildsnav___home"] {
 }
 
 #app-mount [data-list-item-id="guildsnav___home"]>div {
-	color: transparent;
-	background-color: transparent;
+	color: var(--header-primary);
+	background-color: var(--background-secondary-alt);
 }
 
 .wordmark-2u86JB {
