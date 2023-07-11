@@ -1,0 +1,9 @@
+{
+    "name": "NATURAL_SELECTION",
+    "description": "xv",
+    "version": "1.0",
+    "author": "xv#0888, .sqf",
+    "theme": "NATURAL_SELECTION.theme.css",
+    "consent": ["ext_listing"],
+    "license": "MIT"
+}
